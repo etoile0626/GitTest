@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<mappers>
+	<!-- mapper를 늘리고 싶으면 이곳에 추가 등록을 더 해줘야 함 -->
+		<mapper resource="mapper/mybatis-mapper.xml" /> 
+		<mapper resource="mapper/emptest-mapper.xml" /> 
+		<mapper resource="mapper/interface-mapper.xml" /> 
+	</mappers>
+
+</configuration>
